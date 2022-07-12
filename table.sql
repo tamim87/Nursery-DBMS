@@ -46,8 +46,8 @@ create table PAYMENT (
 create table PLANT (
     plant_id integer not null,
     plant_name varchar(50),
-    quantity integer,
-    price number(6),
+    quantity integer CHECK(quantity>=0 AND quantity<=20000),
+    price number(6) DEFAULT 300,
 
     primary key(plant_id)
 );
