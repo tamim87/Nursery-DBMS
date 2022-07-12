@@ -10,4 +10,4 @@
 
 
 @"2.alter_update_delete.sql"
-@"3.select, range search, order by.sql"
+@"3.select_rangeSearch_orderBy.sql"
