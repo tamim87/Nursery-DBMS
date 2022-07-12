@@ -18,5 +18,5 @@ insert into cust_order values(151, 800,  TO_DATE('28-JUN-2022'));
 insert into cust_order values(161, 1650, TO_DATE('30-JUN-2022'));
 
 
-
-select * from cust_order;
+desc cust_order;
+select *from cust_order;

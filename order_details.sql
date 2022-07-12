@@ -17,4 +17,5 @@ insert into order_details values(114,2,141);
 insert into order_details values(115,3,151);
 insert into order_details values(116,2,161);
 
-select * from order_details;
+desc order_details;
+select *from order_details;

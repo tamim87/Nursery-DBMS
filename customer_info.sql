@@ -18,5 +18,5 @@ insert into customer_info values(15, 'BIRDIE', 'SEAN',   'SEOUL',      'birdie@g
 insert into customer_info values(16, 'ARIF',   'KHAN',   'FENI',       'arif@gmail.com',   'h2ghjys7d3',  '01588588607', 161);
 
 
-
-select * from customer_info;
+desc customer_info;
+select *from customer_info;

@@ -17,4 +17,5 @@ insert into payment values(214, 14, 141, TO_DATE('18-JUN-2022'), 717);
 insert into payment values(215, 15, 151, TO_DATE('18-JUN-2022'), 717);
 insert into payment values(216, 16, 161, TO_DATE('18-JUN-2022'), 717);
 
-select * from payment;
+desc payment;
+select *from payment;

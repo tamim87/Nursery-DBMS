@@ -20,4 +20,5 @@ insert into plant values(117, 'Calathea Pinstripe', 10, 620);
 insert into plant values(118, 'Monstera Deliciosa', 10, 1200);
 insert into plant values(119, 'Heart Leaf Philodendron', 10, 400);
 
-select * from plant;
+desc plant;
+select *from plant;
