@@ -43,7 +43,7 @@ create table PAYMENT (
 
 create table PLANT (
     plant_id integer not null,
-    plant_name varchar(30),
+    plant_name varchar(50),
     quantity integer,
     price number(6),
 
