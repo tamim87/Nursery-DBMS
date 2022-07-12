@@ -7,7 +7,7 @@ insert into customer_info values(4,  'RAFIN',  'HASAN',  'KHULNA',     'rafin@gm
 insert into customer_info values(5,  'NAPA',   'EXTRA',  'GHANA',      'napa@gmail.com',   '7hk231fwgu',  '01712323413', 51);
 insert into customer_info values(6,  'SON',    'GOKU',   'YARDRAT',    'goku@gmail.com',   'ay3l42b2jd',  '01956854635', 61);
 insert into customer_info values(7,  'VEGETA', 'SAMA',   'EARTH',      'vegeta@gmail.com', 'f6zkxfjp2j',  '01521486732', 71);
-insert into customer_info values(8,  'BROLY',  'JUNIOR', 'VAMPA',      'broly@gmail.com',  'nh0x89got6',  '01682486325', 81);
+insert into customer_info values(8,  'BROLY',  'JUNIOR', 'VAMPA',      'broly@gmail.com',  'nh0x89got6',  '01905848975', 81);
 insert into customer_info values(9,  'RAKIN',  'AZIM',   'KHILGAON',   'rakin@gmail.com',  '4vef1wpimu',  '01717303174', 91);
 insert into customer_info values(10, 'EZAZ',   'MAHADI', 'RAJSHAHI',   'ezaz@gmail.com',   'llxhoqgfr6',  '01721613795', 101);
 insert into customer_info values(11, 'ARSHAD', 'HASAN',  'SYLHET',     'arshad@gmail.com', 'jdy56nfg22',  '01713163876', 111);

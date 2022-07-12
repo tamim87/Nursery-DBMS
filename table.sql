@@ -19,9 +19,9 @@ create table CUSTOMER_INFO (
     fname varchar(10),
     lname varchar(10),
     address varchar(25),
-    email varchar(30),
-    password varchar(20),
-    phone varchar(12),
+    email varchar(25) UNIQUE,
+    password varchar(30) UNIQUE,
+    phone varchar(12) UNIQUE,
     order_no integer,
 
     primary key(customer_id),
