@@ -33,11 +33,13 @@ create table PAYMENT (
     customer_id integer,
     order_no integer,
     payment_date date,
-    amount number(8),
+    amount number(8)
 
-    primary key(payment_id),
-    foreign key(customer_id) references CUSTOMER_INFO(customer_id) on delete cascade,
-    foreign key(order_no) references CUST_ORDER(order_no) on delete cascade
+    -- for declaring key after creation of table
+
+    -- primary key(payment_id),
+    -- foreign key(customer_id) references CUSTOMER_INFO(customer_id) on delete cascade,
+    -- foreign key(order_no) references CUST_ORDER(order_no) on delete cascade
 );
 
 
@@ -60,3 +62,14 @@ create table ORDER_DETAILS (
     foreign key(plant_id) references PLANT(plant_id) on delete cascade,
     foreign key(order_no) references CUST_ORDER(order_no) on delete cascade
 );
+
+desc payment;
+alter table payment
+add constraint added_primary_key primary key (payment_id);
+
+alter table payment
+add constraint added_foreign_key1 foreign key (customer_id) references customer_info(customer_id) on delete cascade;
+
+alter table payment
+add constraint added_foreign_key2 foreign key (order_no) references cust_order(order_no) on delete cascade;
+desc payment;
