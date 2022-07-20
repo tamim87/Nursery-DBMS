@@ -16,3 +16,4 @@
 @"6.join.sql"
 @"7.PLSQL.sql"
 @"8.PLSQL_procedures_functions.sql"
+@"9.trigger_transactioManagement_date.sql"
