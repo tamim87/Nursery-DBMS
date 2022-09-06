@@ -35,3 +35,11 @@ from customer_info c full outer join cust_order p
 using( order_no);
 
 
+-- max using left outer join
+
+select p.price,p.plant_id
+from plant p
+left join plant q on q.price > p.price
+WHERE q.plant_id IS NULL;
+
+

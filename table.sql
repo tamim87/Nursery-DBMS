@@ -64,7 +64,7 @@ create table ORDER_DETAILS (
 );
 
 desc payment;
-alter table payment
+alter table payment 
 add constraint added_primary_key primary key (payment_id);
 
 alter table payment
